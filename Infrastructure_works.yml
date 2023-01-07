@@ -372,8 +372,8 @@ Resources:
     Properties:
       LaunchConfigurationName: 
         Ref: WebServerLaunchConfig
-      MaxSize: 5
-      MinSize: 3
+      MaxSize: 4
+      MinSize: 4
       TargetGroupARNs:
         - Ref: WebServerTargetGroup
       VPCZoneIdentifier:
@@ -405,4 +405,4 @@ Outputs:
   
   LoadBalancerURL:
     Description: The URL of the Application Load Balancer
-    Value: !GetAtt WebServerLoadBalancer.DNSName
+    Value: !Join [ "", [ "http://", !GetAtt WebServerLoadBalancer.DNSName ] ]
