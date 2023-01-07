@@ -21,5 +21,5 @@ You can run the supporting material in two easy steps:
 ./update.sh updateStack Infrastructure_works.yml Infrastructure-parameters.json
 
 Final Output of LoadBalancerDNS:
-(http://udagr-webse-12qifwtwmexxg-961047690.us-east-1.elb.amazonaws.com/)
+[Project URL](http://udagr-webse-12qifwtwmexxg-961047690.us-east-1.elb.amazonaws.com/)
 ```
