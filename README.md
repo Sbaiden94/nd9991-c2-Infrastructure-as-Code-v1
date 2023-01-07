@@ -22,5 +22,5 @@ You can run the supporting material in two easy steps:
 ```
 
 Final Output of LoadBalancerDNS:
-[projectURL](http://udagr-webse-12qifwtwmexxg-961047690.us-east-1.elb.amazonaws.com)
+[LoadBalancerURL](http://udagr-webse-12qifwtwmexxg-961047690.us-east-1.elb.amazonaws.com)
 
