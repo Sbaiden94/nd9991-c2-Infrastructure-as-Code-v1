@@ -19,7 +19,8 @@ You can run the supporting material in two easy steps:
 # Change the AMI ID
 # Check the region in the update.sh file
 ./update.sh updateStack Infrastructure_works.yml Infrastructure-parameters.json
+```
 
 Final Output of LoadBalancerDNS:
 [projectURL](http://udagr-webse-12qifwtwmexxg-961047690.us-east-1.elb.amazonaws.com)
-```
+
